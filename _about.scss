@@ -1,0 +1,86 @@
+@import './colors.scss';
+
+
+// Header
+
+nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    
+
+    .nav-link{
+        
+        transition: 0.3s ease;
+    }
+
+    .nav-link:hover, .nav-link:focus{
+        color: $orange !important;
+    }
+
+    
+
+    
+
+    
+}
+
+
+
+
+.header-box{
+    width: 100%;
+    color: white;
+    text-align: center;
+    @include sectionP;
+    margin-top: 50px;
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(img/bg-masthead.jpg);
+    @include img-background;
+
+    .orange-line{
+        @include separate;
+        background-color: $orange;
+    }
+
+    p{
+        opacity: 0.7;
+        margin-bottom: 50px;
+    }
+
+    .find{
+        @include button-shape;
+        color: white;
+        background-color: $orange;
+        font-weight: 600;
+        
+    }
+
+}
+
+.about{
+    text-align: center;
+    background-color: $orange;
+    @include sectionP;
+    color: white;
+
+    h2{
+        font-size: 30px;
+    }
+
+    .white-line{
+        @include separate;
+        background-color: white;
+    }
+
+    p{
+        opacity: 0.7;
+        margin-bottom: 50px;
+    }
+
+    .get-started{
+        @include button-shape;
+        font-weight: 600;
+    }
+
+}

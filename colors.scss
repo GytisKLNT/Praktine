@@ -1,0 +1,30 @@
+$orange: #f4623a;
+
+
+
+// Mixins
+
+@mixin button-shape () {
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: none;
+    
+}
+
+@mixin separate () {
+    width: 50px;
+    height: 3px;
+    
+    margin: 25px auto;
+}
+
+@mixin sectionP () {
+    padding: 100px 50px;
+}
+
+@mixin img-background () {
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+}

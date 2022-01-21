@@ -1,0 +1,77 @@
+// Tablet
+
+
+@media (min-width: 768px) {
+    
+    
+    
+    .services-box{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        .sturdy, .upTo, .ready, .made{
+            width: 50%;
+            padding: 20px;
+        }
+
+        
+    }
+
+    .portfolio{
+        
+        display: flex;
+        
+        flex-wrap: wrap;
+
+        .img-box{
+            width: 50%;
+
+            .pImg{
+                height: 15em;
+            }
+        }
+        
+
+        
+    }
+}
+
+
+// Desktop
+
+
+@media (min-width: 1280px){
+
+    .header-box{
+
+        padding-top: 100px;
+    }
+    .header-container, .about-container{
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .sturdy, .upTo, .ready, .made{
+        max-width: 25%;
+        padding: 20px;
+    }
+
+    .portfolio{
+        .img-box{
+            width: 33.33% !important;
+    
+            .pImg{
+                height: 15em;
+            }
+        }
+    }
+
+    .contact{
+        padding: 100px 25%;
+    }
+
+    
+
+    
+}
